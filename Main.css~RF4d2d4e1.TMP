@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+	background-color: red;
+}
+
+
+nav {
+	display: flex;
+	flex-direction: row;
+    min-height: 5px;
+    width:100%;
+    background-color: grey;
+}
+    
+.logo {
+	display: flex;
+}
+
+@media only screen and (max-width: 400px){
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1000px){
+    .menu {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .hamburger {
+        display: none;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+}

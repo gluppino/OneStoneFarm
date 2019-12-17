@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>One Stone Farm</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="logo">
+    <img src="images/One-Stone-logo.gif" alt="One Stone Farm Logo">
+    </div>
+<h2> Coming Soon! Please Stay tuned for new changes!</h2>
+<h3> Contact us for more information through email</h3>
+    <h3 class="email"><a href="mailto:sales@onestonefarm.org?Subject=Infromation%20Request" target="top">Click Here!</a> </h3>
+</body>
+</html>
