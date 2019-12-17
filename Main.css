@@ -3,25 +3,22 @@
 
 body {
 	display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-	background-color: red;
+	/*background-color: red; <--back color */
 }
 
-
-.navbar {
+/* hiding rest of site until everything is set up correctly
+nav {
 	display: flex;
 	flex-direction: row;
-    min-height: 50px;
-    justify-content: flex-start;
-    align-content: space-around;
+    min-height: 5px;
+    width:100%;
     background-color: grey;
 }
     
 .logo {
 	display: flex;
-	flex-direction: column;
-    justify-content: center;
 }
 
 @media only screen and (max-width: 400px){
@@ -29,7 +26,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-shrink: 50%;
+
     }
     
     .menu {
@@ -54,4 +51,4 @@ body {
         flex-direction: row;
         list-style-type: none;
     }
-}
+} */
