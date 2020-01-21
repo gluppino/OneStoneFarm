@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mainform.css">
+    <title>Contact Form</title>
+
+</head>
+<body>
+<div class="container">
+    <header class="header">
+      <h1 id="title">Contact One Stone Farm</h1>
+      <p id="description">Please fill out this form and we will reply as soon as possible.</p>
+    </header>
+  </div>
+  <form id="survey-form">
+    <div class="form-group">
+    <label id="name-label" for="name">Full Name:</label>
+    <input 
+      type="text"
+      name="name"
+      id="name"
+      class="form-control"
+      placeholder="Enter your Name"
+      required/>
+    </div>
+    <div class="form-group">
+    <label id="email-label" for="email">Email:</label>
+    <input 
+           type="email"
+           name="email"
+           id="email"
+           class="form-control"
+           placeholder="Enter your email"
+           required/>
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="phone">Phone:</label>
+    <input 
+           type="tel"
+           name="number"
+           id="number"
+           class="form-control"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+           placeholder="Enter your phone number"
+           max
+           required/>
+      <small>Format 123-456-7890</small>
+    </div>
+    
+    <div class="form-group">
+      <p>Would you like us to contact you?</p>
+          <input
+            name="contact-yes"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked />Yes</label>
+         <input
+            name="contact-no"
+            value="nope"
+            type="radio"
+            class="input-radio"
+            />No</label>
+    </div>
+          <select id="dropdown" name="contact" class="form-control" required>
+        <option disabled selected value>Please select one</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+  <div class="form-group">
+    <p>What products are you interested in?</p>
+    <label>
+      <input
+             name="product-interest"
+             value="goat-milk"
+             type="checkbox"
+             class="product-interest">Goat Milk</label>
+      <label>
+      <input
+             name="product-interest"
+             value="goat-soap"
+             type="checkbox"
+             class="product-interest">Goat Soap</label>
+    <label>
+        <input
+             name="product-interest"
+             value="eggs"
+             type="checkbox"
+             class="product-interest">Farm Fresh Eggs</label>
+      <label>
+        <input
+             name="product-interest"
+             value="hemp"
+             type="checkbox"
+             class="product-interest">Hemp/CBD Oil</label>
+        <div class="form-group">
+        <p>Do you have any additional interests?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+</body>
+</html>
