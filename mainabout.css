@@ -1,9 +1,14 @@
 body {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
+.background {
+    position: static;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
 header {
     display: flex;
     justify-content: center;
@@ -27,7 +32,7 @@ nav .menu {
     justify-content: space-around;
     align-content: flex-start;
     list-style-type: none;
-    flex-basis: 500px;
+    flex-basis: 700px;
 }
 
 a:link {
@@ -42,17 +47,9 @@ a:hover {
     background-color: white;
 }
 
-.Product {
-    display: flex;
-    justify-content: center;
-    font-size: 150px;
-    padding-top: 30px;
-    font-family: 'Merienda', cursive;
-}
-
-.product_list {
+h1 {
     display: flex;
     justify-content: center;
     font-family: 'Merienda', cursive;
-    padding: 50px;
+    font-size: 95px;
 }

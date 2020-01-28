@@ -27,7 +27,7 @@ nav .menu {
     justify-content: space-around;
     align-content: flex-start;
     list-style-type: none;
-    flex-basis: 500px;
+    flex-basis: 700px;
 }
 
 a:link {
