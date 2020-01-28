@@ -52,7 +52,10 @@ a:hover {
 
 .product_list {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     font-family: 'Merienda', cursive;
     padding: 50px;
+    flex-basis: 20px;
+    list-style-type: none;
 }
