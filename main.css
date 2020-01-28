@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 nav {
     display: flex;
     height: 60px;
-    background-color: lightgray;
+    background-color: gray;
     margin: 0;
     padding: 0;
 }
@@ -34,12 +35,16 @@ a:link {
     text-decoration: none;
     color: black;
     font-family: 'Merienda', cursive;
-    padding: 20px 20px;
+    padding: 16px 20px;
     font-size: 20px;
 }
 
 a:hover {
-    background-color: white;
+    background-color: lightgray;
+}
+
+:visited {
+    color: white;
 }
 
 h1 {
