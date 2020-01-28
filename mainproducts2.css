@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-basis: 500px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Merienda', cursive;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.Product {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    padding-top: 30px;
+    font-family: 'Merienda', cursive;
+}
+
+.product_list {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+    padding: 50px;
+}
