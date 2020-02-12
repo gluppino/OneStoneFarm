@@ -2,20 +2,32 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #A18766
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
 }
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+}
+
+.logo {
+    size: 500vh;
+    
 }
 
 nav {
     display: flex;
     height: 60px;
+    width: 100vw;
     background-color: gray;
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    z-index: 2;
 }
 
 nav .hamburger {
@@ -58,6 +70,14 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: 'Merienda', cursive;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+    font-size: 95px;
 }
 
 @media screen and (max-width: 350px) {
