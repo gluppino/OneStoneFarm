@@ -18,6 +18,7 @@ header {
 
 .logo {
     size: 500vh;
+    position: fixed;
     
 }
 
