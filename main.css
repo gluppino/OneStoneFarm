@@ -1,34 +1,34 @@
 body {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    background-color: #A18766
+    background-color: #A18766;   
 }
+
+.background {
+    position: static;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Heading and link code  */
 
 .header {
     display: flex;
-    flex-direction: row;
-    position: absolute;
+    flex-direction: column;
 }
 
-header {
+#logo {
     display: flex;
-    justify-content: center; 
-}
-
-.logo {
-    size: 500vh;
-    position: fixed;
-    
+    /* flex-direction: column; */
+    justify-content: center;
+    box-sizing: 100vw;
 }
 
 nav {
     display: flex;
     height: 60px;
-    width: 100vw;
     background-color: gray;
-    position: fixed;
-    z-index: 2;
+    margin: 0;
+    padding: 0;
 }
 
 nav .hamburger {
@@ -47,18 +47,15 @@ nav .menu {
 a:link {
     text-decoration: none;
     color: black;
-    font-family: 'Merienda', cursive;
-    padding: 16px 20px;
-    font-size: 20px;
+    padding: 18px 19px;
+    font-size: 22px;
 }
 
 a:hover {
-    background-color: lightgray;
+    background-color: white;
 }
 
-:visited {
-    color: white;
-}
+/* Page styling */
 
 h1 {
     display: flex;
@@ -66,79 +63,3 @@ h1 {
     font-family: 'Merienda', cursive;
     font-size: 95px;
 }
-
-h2 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Merienda', cursive;
-}
-
-#intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Merienda', cursive;
-    font-size: 95px;
-}
-
-@media screen and (max-width: 350px) {
-
-    header {
-        display: flex;
-        justify-content: center;
-
-    }
-    
-    img {
-        max-width: 75%;
-    }
-
-    nav {
-        display: flex;
-        height: 30px;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0;
-    }
-    
-    nav .hamburger {
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-    }
-    
-    nav .menu {
-        display: none;
-    
-    }
-    
-    a:link {
-        text-decoration: none;
-        color: black;
-        font-family: 'Merienda', cursive;
-        padding: 20px 20px;
-        font-size: 20px;
-    }
-    
-    a:hover {
-        background-color: white;
-    }
-    
-    h1 {
-        display: flex;
-        justify-content: center;
-        font-family: 'Merienda', cursive;
-        font-size: 75%;
-    }
-    
-    h2 {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        font-family: 'Merienda', cursive;
-        font-size: 75%;
-    }
-
-}
-
-
