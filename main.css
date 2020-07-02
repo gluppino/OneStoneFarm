@@ -26,9 +26,10 @@ body {
 nav {
     display: flex;
     height: 60px;
-    background-color: gray;
+    background-color: #d82b04;
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 nav .hamburger {
