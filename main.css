@@ -18,15 +18,14 @@ body {
 
 #logo {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
     justify-content: center;
-    box-sizing: 100vw;
 }
 
 nav {
     display: flex;
-    height: 60px;
-    background-color: #d82b04;
+    height: 70px;
+    background-color: #21422E;
     margin: 0;
     padding: 0;
     color: black;
