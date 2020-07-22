@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #A18766;   
 }
 
 .background {
@@ -17,7 +18,7 @@ header {
 nav {
     display: flex;
     height: 60px;
-    background-color: lightgray;
+    background-color: rgb(245, 4, 4);
     margin: 0;
     padding: 0;
 }
