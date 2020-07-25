@@ -1,0 +1,36 @@
+body{
+    background-color: #A18766;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    background-color: #21422E;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-basis: 700px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    padding: 18px 19px;
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: white;
+}
