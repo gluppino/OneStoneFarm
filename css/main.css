@@ -34,3 +34,8 @@ a:link {
 a:hover {
     background-color: white;
 }
+
+  .carousel-inner > .carousel-item > img {
+    height: 100vh;
+  }
+
